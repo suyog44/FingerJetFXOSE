@@ -1,28 +1,9 @@
-FingerJetFX OSE -- Fingerprint Feature Extractor, Open Source Edition
-
-Copyright (c) 2011 by DigitalPersona, Inc. All rights reserved.
-
-DigitalPersona, FingerJet, and FingerJetFX are registered trademarks 
-or trademarks of DigitalPersona, Inc. in the United States and other
-countries.
-
 FingerJetFX OSE is open source software that you may modify and/or
 redistribute under the terms of the GNU Lesser General Public License
 as published by the Free Software Foundation, either version 3 of the 
 License, or (at your option) any later version, provided that the 
 conditions specified in the COPYRIGHT.txt file provided with this 
 software are met.
-
-For more information, please visit digitalpersona.com/fingerjetfx.
-
---------------------------------------------------------------------------------------------
-
-
-FingerJetFX OSE
---------------------------------------------------------------------------------------------
-Fingerprint feature extractor library, initial contribution by DigitalPersona, Inc. 
-digitalpersona.com/fingerjetfx 
---------------------------------------------------------------------------------------------
 
 Overview
 --------------------------------------------------------------------------------------------
@@ -57,10 +38,6 @@ The library has a very small memory foorprint:
 
 Performance and Recognition Accuracy
 --------------------------------------------------------------------------------------------
-The initial contribution by DigitalPersona, Inc. (www.digitalpersona.com) 
-has met the required PIV performance thresholds for fingerprint minutiae generation 
-in MINEX test (SDK 3F).
-
 See http://www.nist.gov/itl/iad/ig/ominex_test-results.cfm for details.
 
 On an ARM Cortex-M3 150MHz processor, feature extraction takes 0.5 to 1.25 sec. 
@@ -122,11 +99,5 @@ Makefile             GNU make file (see Building FingerJetFX OSE)
 include              C include folder
 src                  Source folder
 samples              Sample code folder
-
-
-Questions
---------------------------------------------------------------------------------------------
-This software is provided AS-IS, however we'll do our best to answer questions. 
-Please see digitalpersona.com/fingerjetfx for assistance.
 
 
